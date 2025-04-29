@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "cross-env EXPO_NO_TELEMETRY=1 expo start",
-    "build": "npx expo export:web",
+    "build": "npx expo export",
     "deploy": "gh-pages -d web-build",
     "lint": "expo lint"
   },
